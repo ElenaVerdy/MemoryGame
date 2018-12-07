@@ -1,0 +1,119 @@
+#container {
+	margin: auto;
+	cursor: default;
+	position: relative;
+	width: 500px;
+	height: 344px;
+	border: solid 1px black;
+	background-image: url("container.png")
+}
+
+.playground {
+	float: left;
+	box-sizing: border-box;
+	margin: 2px 0px 2px 2px;
+	border: solid 1px black; 
+	width: 332px;
+	height: 340px;
+}
+
+.game-bar {
+	position: relative;
+	float: right;
+	box-sizing: border-box;
+	margin: 2px 2px 2px 0px;
+	border: solid 1px black;
+	width: 160px;
+	height: 340px; 
+	background-image: url("game-bar.png")
+}
+
+.cover {
+	cursor: pointer;
+	z-index: 999;
+	background-image: url(closed.png);
+	position: absolute;
+	top:-1px;
+	left: -1px;
+	margin: 0px;
+	display: block;
+	width: 43px;
+	height: 57px;
+}
+.not-displayed{
+	display: none;
+}
+td {
+	position: relative;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0px;
+	border: solid 1px;
+	height: 56px;
+	width: 41px;
+}
+table {
+	z-index: 0;
+	background: 0px;
+	padding: 0px;
+}
+.timer {
+	position: absolute;
+	top: 110px;
+	left:40px;
+}
+.score {
+	position: absolute;
+	top:142px;
+	left: 40px;
+}
+.quit-button {
+	cursor: pointer;
+	border-color: #894a89;
+	background-color: #b387c7;
+	position: absolute;
+	top:80%;
+	left:15%;
+	width: 70%;
+	color:;
+}
+.congrats {
+	cursor: pointer;
+	font: 30px bold;
+	line-height: 2em;
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 25%;
+	left: 15%;
+	z-index: 9999;
+	width: 70%;
+	height: 50%;
+	background-image: url("congrats.png");
+}
+.start-button {
+	cursor: pointer;
+	font: 17px bold;
+	position: absolute;
+	background-color: red;
+	border-color: darkred;
+	top: 261px;
+	left: 243px;
+	height: 48px;
+	width: 48px;
+	border-radius: 500px;
+}
+.hint-block {
+	position: relative;
+	top: 170px;
+	left: 37px;
+}
+.hint {
+	cursor: pointer;
+	background-image: url("hint.png");
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	margin: 5px;
+	border
+}
